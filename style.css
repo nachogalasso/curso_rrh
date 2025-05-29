@@ -330,6 +330,7 @@ a:hover {
 }
 
 .main__intro_links {
+  margin: 2rem auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -371,7 +372,7 @@ a:hover {
   }
 
   .main__intro_links {
-    margin: 2rem auto;
+    margin: 5rem auto;
     flex-direction: row;
     flex-wrap: wrap;
   }
