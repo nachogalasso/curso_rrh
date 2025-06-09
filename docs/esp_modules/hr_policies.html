@@ -21,22 +21,22 @@
         <meta name="twitter:title" content="Práctica Recursos Humanos" />
         <meta name="twitter:image" content="" />
         <!-- STYLE SHEET -->
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="/style.css">
         <!-- ICONS -->
-        <link rel="apple-touch-icon" sizes="57x57" href="./assets/icons/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="./assets/icons/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="./assets/icons/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="./assets/icons/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="./assets/icons/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="./assets/icons/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="./assets/icons/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="./assets/icons/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="./assets/icons/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="./assets/icons/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
-        <link rel="manifest" href="./assets/icons/manifest.json">
+        <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+        <link rel="manifest" href="/assets/icons/manifest.json">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -77,11 +77,13 @@
                 
                 <ul class="nav__listlinks">
                     <li class="nav__init_lang">
-                        <a href="/docs/index_eng.html" class="nav__int_lang"><img src="./assets/images/logos/english.png" alt="flag" title="English"></a>
+                        <a href="/docs/index_eng.html" class="nav__int_lang"><img src="/assets/images/logos/english.png" alt="flag" title="English"></a>
                     </li>
-                    <li class="nav__init">Inicio</li>
+                    <li class="nav__init">
+                        <a href="/index.html" class="nav__module_links">Inicio</a>
+                    </li>
                     <li class="nav__module">
-                        <a href="/docs/esp_modules/hr_policies.html" class="nav__module_links">Políticas de RRHH</a>
+                        <a href="#imageslider_container" class="nav__module_links">Políticas de RRHH</a>
                         <!-- <ul>
                             <li><a href="#">¿Qué es Power BI y cómo funciona?</a></li>
                             <li><a href="#">Instalación y configuración</a></li>
@@ -154,36 +156,94 @@
         <main class="main">
             <section class="main__intro">
             
-                <h4 class="main__intro_title">🌟 ¡Bienvenidos al mundo de los Recursos Humanos! 🌟</h4>
-
-                <p class="main__intro_text">Esta web nace con un propósito muy simple y único: <i>ayudarte a dar tus primeros pasos en el fascinante mundo de los Recursos Humanos.</i></p>   
-
-                <p class="main__intro_text">Si sos estudiante, profesional sin experiencia (¡y si ya tenés experiencia y querés desarrollarte en otras áreas, también sos bienvenido!) o simplemente alguien con curiosidad por los RRHH, este espacio es para vos. Vas a encontrar una combinación de teoría práctica y casos reales que te permitirán poner en juego tus conocimientos, tu ingenio y tus ideas.</p>
-
-                <p class="main__intro_text">El objetivo es obtener experiencia resolviendo situaciones reales a través del enfoque <b>STAR</b> (Situación, Tarea, Acción, Resultado). Intentaré poner a disposición distintos casos del área para que puedas: primero analizar la situación, luego pensar qué tarea abordar y, cómo actuar. </p>
-
-                <p class="main__intro_text">El mayor desafío que nos enfrentaremos será visualizar un resultado: como no contamos con un entorno real de práctica, en muchos casos el resultado será incierto, <i>lo importante es mostrar <b>tu manera de pensar, tu lógica y tu forma de afrontar los problemas.</b></i></p>   
-
-                <h4 class="main__intro_title">💡 ¿Qué vas a encontrar en la web?</h4>  
-
+                <h4 class="main__intro_title">🧭 Módulo 1: Políticas de Recursos Humanos</h4>
+                
+                <p class="main__intro_text">Las políticas de RRHH son guías, reglas o principios que ayudan a las empresas a ordenar su accionar. Regulan el comportamiento de las personas dentro de la organización, la forma de trabajo, las compensaciones, y otros aspectos clave del día a día laboral.</i></p>   
+                    
+                <p class="main__intro_text">Por ejemplo: Si tenés un local de comidas rápidas o una cafetería, y querés que el personal sea fácilmente reconocible, podrías implementar una <b>política de vestimenta</b>.</p>
+                    
+                <p class="main__intro_text">O si deseás organizar los turnos de trabajo, necesitás políticas claras que especifiquen si es una jornada completa, parcial, o con posibilidad de teletrabajo.</p>
+                    
+                <p class="main__intro_text">Una de las primeras tareas al incorporarse a una empresa es revisar si ya existen políticas formales de RRHH. Si no las hay, o si son “de palabra”, puede ser una gran oportunidad para documentarlas y darles forma.</p>   
+                    
+                <h4 class="main__intro_title">📌 ¿Para qué sirven las políticas?</h4>
+                    
+                <p class="main__intro_text">Las políticas están generalmente alineadas con los objetivos comerciales de la empresa. Establecen directrices claras, reglas concretas y un marco de acción que ayuda a que la empresa funcione de manera ordenada, equitativa y previsible.</p>   
+                
+                <p class="main__intro_text">Como profesionales de RRHH, es posible que debamos:</p>   
+                
                 <ul class="main__intro_list">
-                    <li>Abordaré temas clave del área de RRHH y trataré de explicalos de forma simple y clara.</li>
-                    <li>Casos prácticos para resolver de manera creativa y reflexiva.</li>
-                    <li>La posibilidad de crear tu propio portfolio con las soluciones que vayas desarrollando.</li>
+                    <li>Crear nuevas políticas (en empresas que están comenzando).</li>
+                    <li>Actualizar las existentes.</li>
+                    <li>Formalizar prácticas que solo existen de manera verbal.</li>
                     <li>Un espacio de aprendizaje compartido, y con suerte, una comunidad que también está comenzando a dar sus primeros pasos.</li>
                 </ul>
 
-                <h4 class="main__intro_title">🙋‍♂️ Sobre mí</h4>
-
-                <p class="main__intro_text">Soy Ignacio Galasso, un apasionado de los Recursos Humanos. Aunque aún poseo una experiencia formal en el área, sí soy alguien con muchas ganas de aprender, resolver problemas reales y crecer junto a otros profesionales. Si visitaste mi portfolio, vas a ver que ya participé en algunos proyectos relacionados.</p>
+                <figure class="main__intro_image">
+                    <img src="/assets/images/hr_policies/hr_policy1.webp" alt="Ejemplo de politica de RRHH" title="Política de RRHH" class="main__intro_img">
+                    <img src="/assets/images/hr_policies/hr_policy2.webp" alt="Ejemplo de politica de RRHH" title="Política de RRHH" class="main__intro_img">
+                    <img src="/assets/images/hr_policies/hr_policy3.webp" alt="Ejemplo de politica de RRHH" title="Política de RRHH" class="main__intro_img">
+                </figure>
                 
-                <p class="main__intro_text">Creé esta web con la idea de que aprendamos juntos y que este sea tu primer paso hacia una carrera en RRHH.</p>
+                <p class="main__intro_text">📄 Es conveniente llevar un registro de las políticas. En el registro podemos incluir:</p>   
+                
+                <ul class="main__intro_list">
+                    <li>Fecha de creación.</li>
+                    <li>Departamento responsable (o si es general).</li>
+                    <li>Frecuencia de revisión.</li>
+                    <li>Número de versión y fecha de actualización.</li>
+                    <li>Persona que aprueba la política.</li>
+                    <li>Documentos o registros adjuntos si los hay.</li>
+                </ul>
 
-                <p class="main__intro_text">🔑<b>Animate a participar, explorá los casos, pensá soluciones, compartí tu enfoque. ¡Estás empezando a construir tu experiencia!</b></p>
+                <figure class="main__intro_image">
+                    <img src="/assets/images/hr_policies/hr_excel_policy.webp" alt="Ejemplo de registro politicas" title="Registro de Políticas" class="main__intro_img">
+                </figure>
+                
+                <p class="main__intro_text">El registro de realizarlo, les conviene ajustarlo a sus propias necesidades. No todos los puntos son obligatorios.</p>   
+
+                <h4 class="main__intro_title">🧩 Tipos de Políticas en RRHH</h4>
+                
+                <ul class="main__intro_list">
+                    <li>
+                        <p>🔍 Política de Reclutamiento => Define cómo se inicia un proceso de selección, qué pasos se siguen durante la contratación y cómo se realiza el onboarding. <i>Podés tener una sola política o dividirla en varias: selección y bienvenida.</i></p>
+                    </li>
+                    <li>
+                        <p>💰 Política de Compensaciones y Beneficios => Establece escalas salariales, criterios para beneficios, condiciones según antigüedad o puesto, y reglas para aumentos o bonos.<i>Esto aporta transparencia y previsibilidad para todo el personal.</i></p>
+                    </li>
+                    <li>
+                        <p>🏖️ Política de Licencias y Vacaciones => Detalla cómo se solicitan y otorgan las vacaciones, qué certificados se requieren para licencias médicas, y cómo se gestionan ausencias. <i>Buscamos reglas claras y justas, para tratar a todos con equidad.</i></p>
+                    </li>
+                    <li>
+                        <p>📈 Política de Performance => Define si y cómo se mide el rendimiento del personal, con qué frecuencia y mediante qué herramientas o responsables. <i>Esto permite que cada persona sepa cómo será evaluada.</i></p>
+                    </li>
+                    <li>
+                        <p>🚪 Política de Salida => Regula procesos de renuncia, despido o jubilación. Se pueden incluir rituales de despedida o reconocimientos, así como los pasos administrativos. <i>Una salida bien planificada puede ser positiva para ambas partes.</i></p>
+                    </li>
+                    <li>
+                        <p>⚠️ Política de Sanciones => Podés tener una política general o establecer sanciones dentro de cada política (por ejemplo, en licencias). También se pueden detallar procedimientos antes de un despido.</p>
+                    </li>
+                </ul>
+                
+                <h4 class="main__intro_title">🎯 ¿Por qué es importante crear políticas?</h4>
+                
+                <p class="main__intro_text">Porque aportan <b>transparencia, equidad y coherencia</b>. Todos los empleados conocen las reglas y saben que se aplican por igual. Además:</p>
+                
+                <ul class="main__intro_list">
+                    <li>Brindan un marco para tomar decisiones.</li>
+                    <li>Ayudan a alinear al personal con los valores y objetivos de la empresa.</li>
+                    <li>Permiten anticipar y resolver conflictos de forma justa.</li>
+                </ul>
+                
+                <h4 class="main__intro_title">✍️ Actividad propuesta</h4>
+
+                <p class="main__intro_text">👉 <u>Ejercicio 1:</u> Elegí un área (por ejemplo: licencias, vestimenta, compensaciones) y escribí una política básica que podría aplicarse en una empresa pequeña.</p>
+
+                <p class="main__intro_text">👉 <u>Ejercicio 2:</u> Imaginá que en una empresa no hay políticas formales. Te piden que propongas una política sobre licencias médicas. ¿Qué incluirías? Pensá en: solicitudes, certificados, días excepciones.</p>
 
             </section>
 
-            <section class="main__intro_links">
+            <!-- <section class="main__intro_links">
                 <a href="" class="main__linksitem">Organigrama y Descripción de Puestos</a>
                 <a href="" class="main__linksitem">Selección de Personal</a>
                 <a href="" class="main__linksitem">Onboarding</a>
@@ -191,7 +251,7 @@
                 <a href="" class="main__linksitem">Sueldos</a>
                 <a href="" class="main__linksitem">Gestión del Talento</a>
                 <a href="" class="main__linksitem">Motivación</a>
-            </section>
+            </section> -->
 
         </main>
         <!-- MAIN END -->
@@ -214,6 +274,6 @@
                 </secti>
         </footer>
         <!-- FOOTER END -->
-    <script src="./scripts.js" type="text/javascript"></script>            
+    <script src="/scripts.js" type="text/javascript"></script>            
     </body>
 </html>
