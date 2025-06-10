@@ -245,7 +245,7 @@ a {
   border-radius: 50%;
 }
 
-.nav__init, .nav__init_lang {
+.nav__init_lang {
   padding: .5rem 1rem;
   font-size: 2rem;
   font-weight: bold;
@@ -364,6 +364,7 @@ a:hover {
   }
 
   .main__intro_title {
+    margin-top: 2.5rem;
     font-size: 2rem;
   }
 
@@ -428,3 +429,87 @@ a:hover {
     font-size: 2.5rem;
   }
 }
+
+
+/* === HR POLICY === */
+.main__image_container {
+  margin: 1rem auto;
+  display: flex;
+  width: 35rem;
+  height: 50rem;
+  position: relative;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.main__image_container img {
+  width: 100%;
+  left: 0;
+  position: sticky;
+  object-fit: cover;
+  border-radius: 1rem;
+  scroll-snap-align: center;
+  transition: .5s ease;
+}
+
+.main__intro_image {
+  margin: 1rem auto;
+}
+
+.original {
+  text-align: right;
+  font-size: .8rem;
+}
+
+.main__pages_list, .main__pages_list2 {
+  margin-bottom: 1.8rem;
+  padding-left: 4rem;
+}
+
+.main__pages_list li {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.main__pages_list2 li{
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .main__image_container {
+    width: 70rem;
+    height: 60rem;
+    overflow: hidden;
+  }
+
+  .main__image_container img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+  }
+
+.main__image_container img:hover {
+    cursor: crosshair;
+    width: 35rem;
+    opacity: 1;
+    filter: contrast(120%);
+    border: .1rem solid var(--secondary);
+  } 
+
+  .original {
+    font-size: 1rem;
+  }
+
+  .main__pages_list li, .main__pages_list2 li {
+    font-size: 1.8rem;
+  }
+
+}
+
+
+
