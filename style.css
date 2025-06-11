@@ -280,9 +280,10 @@ a:hover {
   .nav {
     margin: 2rem 1.8rem;
   }
-
+  
   .nav__listlinks {
     position: sticky;
+    top: 0;
     transform: translateX(0);
     padding: 2rem 1rem;
     box-shadow: var(--secondary) 0 0 1rem;
