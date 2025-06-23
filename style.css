@@ -297,7 +297,6 @@ a:hover {
     font-size: 2rem;
   }
 
-
 }
 
 /* === MAIN === */
@@ -355,6 +354,10 @@ a:hover {
 
 .darkmode .main__intro_links a:hover {
   background-color: var(--secondary);
+}
+
+.small_image {
+  width: 65rem;
 }
 
 /* Media Querys */
