@@ -276,6 +276,10 @@ a:hover {
   color: var(--primary);
 }
 
+.not_yet {
+  text-decoration: line-through;
+}
+
 @media screen and (min-width: 1024px) {
   .nav {
     margin: 2rem 1.8rem;
