@@ -314,8 +314,20 @@ a:hover {
 
 .main__intro_title {
   margin: 1rem 0;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   font-weight: bold;
+}
+
+.banner {
+  margin: 1.5rem 0;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  border-left: var(--secondary) dotted .2rem;
+}
+
+.darkmode .banner {
+  border-left: var(--secondary) dotted .2rem;
 }
 
 .main__intro_text {
@@ -364,6 +376,27 @@ a:hover {
   width: 65rem;
 }
 
+.main__btn_gtt {
+  display: none;
+  position: fixed;
+  bottom: 1rem;
+  right: 3rem;
+  z-index: 99;
+  background-color: var(--secondary);
+  color: var(--primary);
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+}
+
+.darkmode .main__btn_gtt {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
 /* Media Querys */
 @media screen and (min-width: 768px) {
 
@@ -373,7 +406,7 @@ a:hover {
 
   .main__intro_title {
     margin-top: 2.5rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .main__intro_text, .main__intro_list li {
@@ -386,6 +419,12 @@ a:hover {
     flex-wrap: wrap;
   }
 
+  .banner {
+    text-align: left;
+    padding-left: 1.5rem;
+    font-size: 1.8rem;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -395,6 +434,11 @@ a:hover {
 
   .main__intro_links a {
     font-size: 2rem;
+  }
+
+  .main__btn_gtt {
+    bottom: 5rem;
+    right: 4rem;
   }
 
 }
