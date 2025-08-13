@@ -401,7 +401,7 @@ a:hover {
 @media screen and (min-width: 768px) {
 
   .main__intro {
-    padding: 0 3rem;
+    padding: 0 3.5rem;
   }
 
   .main__intro_title {
@@ -428,9 +428,6 @@ a:hover {
 }
 
 @media screen and (min-width: 1024px) {
-  .main__intro {
-    padding-left: 1.5rem;
-  }
 
   .main__intro_links a {
     font-size: 2rem;
@@ -559,6 +556,7 @@ a:hover {
 
   .main__pages_list li, .main__pages_list2 li {
     font-size: 1.8rem;
+    margin: 2.5rem 0;
   }
 
 }
