@@ -374,6 +374,8 @@ a:hover {
 
 .small_image {
   width: 65rem;
+  margin: 1.5rem auto;
+  border-radius: 1.5rem;
 }
 
 .main__btn_gtt {
