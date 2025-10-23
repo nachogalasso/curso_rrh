@@ -481,6 +481,11 @@ a:hover {
   }
 }
 
+.special_link {
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+}
 
 /* === HR POLICY === */
 .main__image_container {
