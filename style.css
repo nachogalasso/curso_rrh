@@ -569,4 +569,11 @@ a:hover {
 }
 
 
-
+/* === TRAINING === */
+.iframe_view {
+  width: 100%;
+  height: 70rem;
+  border: .2rem solid var(--secondary);
+  border-radius: 1rem;
+  margin: 2rem 0;
+}
