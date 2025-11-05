@@ -577,3 +577,9 @@ a:hover {
   border-radius: 1rem;
   margin: 2rem 0;
 }
+
+.exer_img {
+  width: 40rem;
+  margin: 1.5rem auto;
+  border-radius: 1.5rem;
+}
